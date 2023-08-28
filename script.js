@@ -14,4 +14,7 @@ console.log(pos);
         
         console.log(latitude);
         console.log(longitude);
+
+        document.getElementById('lat').textContent = latitude;
+        document.getElementById('lon').textContent = latitude;
     }; 
